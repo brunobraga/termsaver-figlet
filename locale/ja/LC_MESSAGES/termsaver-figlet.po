@@ -1,0 +1,160 @@
+# ##############################################################################
+#
+# file:     termsaver-figlet.po
+#
+# Purpose:  Localization file for *Japanese* language.
+#
+# Note:     This file is part of Termsaver-Figlet plugin, and should not be
+#           used or executed separately.
+#
+# ##############################################################################
+#
+# Copyright 2012 Termsaver
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); you may
+# not use this file except in compliance with the License. You may obtain
+# a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+# WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+# License for the specific language governing permissions and limitations
+# under the License.
+#
+# ##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: TermSaver Figlet Plugin 0.1\n"
+"Report-Msgid-Bugs-To: Bruno Braga <bruno.braga@gmail.com>\n"
+"POT-Creation-Date: 2012-05-11 12:36+1000\n"
+"PO-Revision-Date: 2012-05-11 12:40+1000\n"
+"Last-Translator: Bruno Braga <bruno.braga@gmail.com>\n"
+"Language-Team: \n"
+"Language: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/base/__init__.py:87
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/base/__init__.py:87
+#, python-format
+msgid ""
+"Could not execute the command [%(cmd)s] properly.\n"
+"%(message)s \n"
+"Error details: %(error)s"
+msgstr ""
+"Could not execute the command [%(cmd)s] properly.\n"
+"%(message)s \n"
+"Error details: %(error)s"
+
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/base/__init__.py:118
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/base/__init__.py:118
+#, python-format
+msgid ""
+"Here is the list of all available figlet fonts that are\n"
+"supported in your system:\n"
+"\n"
+"%(fonts)s\n"
+"\n"
+"You may try to use them with the option -f/--font. See --help for details.\n"
+"\n"
+"You may also refer to official figlet documentation for additional details\n"
+"on how to deal with fonts.\n"
+msgstr ""
+
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/stat.py:108
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/stat.py:108
+msgid "displays word in random places on screen"
+msgstr ""
+
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/stat.py:150
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/stat.py:150
+#, python-format
+msgid ""
+"\n"
+"Options:\n"
+"\n"
+" -w, --word   Sets the word to be displayed\n"
+"              default is the name of this application (if you need to use\n"
+"              spaces, don't forget to place the word with quotes)\n"
+" -d, --delay  Sets how long the word will be displayed before\n"
+"              randomized again. Default is %(default_delay)s second(s)\n"
+" -f, --font   the figlet font to be used, default is the figlet default\n"
+"              (see `figlet -I3` command for details or figler man pages)\n"
+" -h, --help   Displays this help message\n"
+"     --help-fonts\n"
+"              Displays the available fonts that can be used with\n"
+"              the -f/--font option.\n"
+"Example:\n"
+"\n"
+"    $ %(app_name)s %(screen)s\n"
+"    This will trigger the screensaver to display the default word\n"
+"    %(app_title)s in random locations of the screen\n"
+"\n"
+"    $ %(app_name)s %(screen)s -w FooBar -f lean -d 5\n"
+"\n"
+"    This will trigger the screensaver to display the word FooBar\n"
+"    in random locations of the screen, using the \"lean\" figlet font with\n"
+"    a delay of 5 seconds.\n"
+msgstr ""
+
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/stat.py:218
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/fly.py:207
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/stat.py:218
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/fly.py:207
+msgid "Font does not exist"
+msgstr ""
+
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/stat.py:221
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/fly.py:210
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/stat.py:221
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/fly.py:210
+msgid "Unhandled option. See --help for details."
+msgstr ""
+
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/fly.py:83
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/fly.py:83
+msgid "displays flying text"
+msgstr ""
+
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/fly.py:104
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/fly.py:104
+msgid "The word you are trying to print is just too big."
+msgstr ""
+
+#: /home/bruno/workspace/termsaver-figlet/extras/../figlet/screen/fly.py:141
+#: /home/bruno/Dropbox/development/termsaver-figlet/extras/../figlet/screen/fly.py:141
+#, python-format
+msgid ""
+"\n"
+"Options:\n"
+"\n"
+" -w, --word   Sets the word to be displayed\n"
+"              default is the name of this application (if you need to use\n"
+"              spaces, don't forget to place the word with quotes)\n"
+" -d, --delay  Sets the speed of the displaying characters\n"
+"              default is 0.05 of a second (advised to keep\n"
+"              between 0.1 and 0.01).\n"
+" -f, --font   the figlet font to be used, default is the figlet default\n"
+"              (see `figlet -I3` command for details or figler man pages)\n"
+" -h, --help   Displays this help message\n"
+"     --help-fonts\n"
+"              Displays the available fonts that can be used with\n"
+"              the -f/--font option.\n"
+"Example:\n"
+"\n"
+"    $ %(app_name)s %(screen)s\n"
+"    This will trigger the screensaver to display the default word\n"
+"    %(app_title)s in random locations of the screen\n"
+"\n"
+"    $ %(app_name)s %(screen)s -w FooBar -f lean -d 0.005\n"
+"    This will trigger the screensaver to display the word FooBar\n"
+"    in random locations of the screen, using the \"lean\" figlet font with\n"
+"    a delay of 0.005 seconds (fast).\n"
+msgstr ""

@@ -1,0 +1,5 @@
+termsaver-figlet (0.1-1) unstable; urgency=low
+
+  * Packaging work for initial inclusion in Debian.
+
+ -- Bruno Braga <bruno.braga@gmail.com>  Thu, 11 May 2012 01:26:01 +1000

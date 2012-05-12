@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+#
+# Include access to private module
+#
+PYTHONPATH=/usr/share/termsaver
+
+override_dh_auto_install:
+	dh_auto_install -- --install-lib=/usr/share/termsaver/termsaverlib/plugins
+
+%:
+	dh $@ --with=python2
+

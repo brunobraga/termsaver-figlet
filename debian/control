@@ -1,0 +1,20 @@
+Source: termsaver-figlet
+Section: misc
+Priority: optional
+Maintainer: Bruno Braga <bruno.braga@gmail.com>
+Build-Depends: python, debhelper (>= 7.4.3), termsaver (>= 0.1.2), 
+Standards-Version: 3.9.3
+Vcs-Git: git://github.com/brunobraga/termsaver.git
+Vcs-Browser: https://github.com/brunobraga/termsaver-figlet
+Homepage: http://www.termsaver.info/plugins/
+
+Package: termsaver-figlet
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, figlet (>= 2.2.2)
+Description: A FigLet based screensaver plugin for Termsaver
+ TermSaver-FigLet is a very simple plugin to enable additional
+ screensavers to TermSaver application, with use of FigLet
+ (ASCII based fonts) output.
+ .
+ This also represents a plugin template for TermSaver application,
+ to serve as base for downstream contribution to TermSaver. 
